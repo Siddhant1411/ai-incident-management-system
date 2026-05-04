@@ -29,6 +29,23 @@ No explanation.
   "priority": "HIGH|MEDIUM|LOW" }
 
 
+
+ - Example
+
+Input: database connection error
+
+Output:
+type: DB_ERROR
+priority: HIGH
+
+
+📌 Future Enhancements
+Retry mechanism (Kafka backoff)
+Dead Letter Queue (DLQ)
+Circuit Breaker (Resilience4j)
+Monitoring (Prometheus + Grafana)
+
+
 Key Features
 Event-driven architecture (Kafka)
 AI-powered classification
