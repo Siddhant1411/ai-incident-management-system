@@ -1,0 +1,16 @@
+# Maven
+**/target/
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Maven wrapper logs
+.mvn/wrapper/maven-wrapper.jar
+
+# Env
+.env
